@@ -2,9 +2,9 @@ Pick-and-place assembly G-Code
 ==============================
 
 Right now, this code translates a KiCAD RPT file to G-Code for pick-and-place
-assembly on a 3D printer. You need vacuum needlde and solenoids.
+assembly on a 3D printer. You need vacuum needle and solenoids.
 
-(this is based https://github.com/hzeller/rpt2paste and will eventually be merged
+(this is based on https://github.com/hzeller/rpt2paste and will eventually be merged
  to one program useful for everything.)
 
 General setup
@@ -12,7 +12,7 @@ General setup
 
 Currently, the setup for rpt2pnp is relatively simple: you place the board on
 the bed, and the tapes with opened 'lids' straight on the same bed. You tell
-rpt2pnp where the board is and the tapes, and it generates G-Code to do the
+rpt2pnp where the board and the tapes are, and it generates G-Code to do the
 operation.
 
 There is not yet the concept of a feeder.
